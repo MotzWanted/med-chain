@@ -1,0 +1,4 @@
+_target_: src.components.loader.interface.load_dataset
+name_or_path: "medqa"
+split: "validation"
+num_samples: 1000

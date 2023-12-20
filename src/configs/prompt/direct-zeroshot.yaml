@@ -1,0 +1,9 @@
+defaults:
+  - base
+
+system_template: null
+user_template: |
+  Question: {{question}}
+  Choices: {% for option in answers %} ({{ 'ABCD'[ loop.index-1 ] }}) {{ option }}{% endfor %}.
+fewshot: null
+

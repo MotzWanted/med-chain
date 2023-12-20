@@ -1,0 +1,4 @@
+work_dir: /scratch/s183568/medical-reasoning/
+cache_dir: /scratch/s183568/medical-reasoning-cache/
+storage_dir: /scratch/s183568/cache
+cache_reset: false

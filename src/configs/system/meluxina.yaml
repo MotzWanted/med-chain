@@ -1,0 +1,5 @@
+work_dir: /project/scratch/p200149/medical-reasoning/
+cache_dir: /project/scratch/p200149/medical-reasoning-cache/
+storage_dir: /project/scratch/p200149/cache
+cache_reset: false
+ray_address: 'localhost:6379'

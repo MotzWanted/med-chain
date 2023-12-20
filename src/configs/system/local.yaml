@@ -1,0 +1,4 @@
+storage_dir: /${cwd}/storage/data
+work_dir: ./cache/medical-reasoning/
+cache_dir: ./cache/medical-reasoning-cache/
+cache_reset: false

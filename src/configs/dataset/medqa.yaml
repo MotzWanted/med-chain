@@ -1,0 +1,5 @@
+_target_: components.loader.interface.load_dataset
+name_or_path: "VodLM/medqa"
+subset: "us"
+split: "test"
+num_samples: null

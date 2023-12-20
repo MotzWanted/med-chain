@@ -1,0 +1,4 @@
+defaults:
+  - base
+
+name: "meta-llama/Llama-2-70b-hf"

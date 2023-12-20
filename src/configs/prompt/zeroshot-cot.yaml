@@ -1,0 +1,9 @@
+defaults:
+  - base
+
+system_template: |
+  As a healthcare professional, your role is to provide expert responses to questions presented with four answer options where one stands out as the most correct.
+user_template: |
+  Question: {{question}}
+  Choices: {% for option in answers %} ({{ 'ABCD'[ loop.index-1 ] }}) {{ option }}{% endfor %}.
+fewshot: null

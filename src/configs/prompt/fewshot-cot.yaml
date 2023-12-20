@@ -1,0 +1,14 @@
+defaults:
+  - base
+
+system_template: |
+  As a healthcare professional, your role is to provide expert responses to questions presented with four answer options where one stands out as the most correct.
+user_template: |
+  Question: {{question}}
+  Choices: {% for option in answers %} ({{ 'ABCD'[ loop.index-1 ] }}) {{ option }}{% endfor %}.
+fewshot:
+  assistant_template: |
+    Explantion: {{explanation}}
+    Answer: Therefore, among A through D, the answer is ({{ 'ABCDE'[target] }}) {{ answers[target] }}.
+  dataset_name: ${dataset.name_or_path}
+  k: 5
