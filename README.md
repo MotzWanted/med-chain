@@ -1,5 +1,3 @@
-
-
 🌟 Official repository for the paper [Can large language models reason about medical questions?](https://arxiv.org/abs/2207.08143) (Version 3)
 
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/can-large-language-models-reason-about/question-answering-on-medqa-usmle)](https://paperswithcode.com/sota/question-answering-on-medqa-usmle?p=can-large-language-models-reason-about)
@@ -10,6 +8,7 @@
 ## Table of Contents
 
 - [Introduction](#introduction)
+  - [Repository Update and Legacy Code](#repository-update-and-legacy-code)
 - [Setup](#setup)
   - [Install Poetry](#install-poetry)
   - [Install Dependencies](#install-dependencies)
@@ -25,6 +24,13 @@
 ## Introduction
 
 Welcome to the official codebase supporting the research paper [Can large language models reason about medical questions?](https://arxiv.org/abs/2207.08143) version 3.
+
+### Repository Update and Legacy Code
+
+**New Repository (`med-chain`):** With the latest version of our paper, we have transitioned to using open-source large language models. This shift marks a significant update in our research methodology and the tools we use. The relevant code and resources are available in the `med-chain` repository.
+
+**Legacy Repository (`medical-reasoning`):** Earlier versions of our research, including work with OpenAI GPT-3.5, are documented in the `medical-reasoning` repository. This repository includes all the relevant code and data from our earlier research phases. The repository is available at [https://github.com/vlievin/medical-reasoning](https://github.com/vlievin/medical-reasoning).
+
 
 ## Setup
 
